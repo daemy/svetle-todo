@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@CrossOrigin(maxAge = 3600)
 @RestController
 @RequestMapping(value = "/api/todo")
 public class TodoController {
